@@ -404,7 +404,7 @@ Care must be taken as this flexibility can also lead to some incorrect
 configurations. In these next examples we look at some mistakes that can
 occur.
 
-In *Figure 4*) two records that are scanned at 10 Hz make references to
+In (*Figure 4*) two records that are scanned at 10 Hz make references to
 the same Passive record. In this case, no alarm or error is generated.
 The Passive record is scanned twice at 10 Hz. The time between the two
 scans depends on what records are processed between the two periodic
@@ -414,7 +414,7 @@ records.
 
 **Figure 4**
 
-In *Figure 5*),
+In (*Figure 5*),
 several circular references are made. As the record processing is
 recursively called for links, the record containing the link is marked
 as active during the entire time that the chain is being processed. When
