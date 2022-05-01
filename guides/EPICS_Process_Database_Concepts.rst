@@ -365,7 +365,7 @@ In (*Figure 2*), the PP attribute is used. In this example, Output_3 is
 processed periodically. Record processing first fetching the DOL field.
 As the DOL field has the PP attribute set, before the VAL field of
 Calc_3 is returned, the record is processed. The first thing done by the
-ai record Input_3 does is to read the input. It then converts the RVAL
+ai record Input_3 is to read the input. It then converts the RVAL
 field to engineering units and places this in the VAL field, checks
 alarms, posts monitors, and then returns. The calc record then fetches
 the VAL field field from Input_3, places it in the A field, computes the
