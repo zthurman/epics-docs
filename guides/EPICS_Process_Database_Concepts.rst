@@ -361,7 +361,7 @@ process passive). In this case, the record takes the VAL field and
 returns it. If they are set to PP (process passive), then the record is
 processed before the field is returned.
 
-In *Figure 2*), the PP attribute is used. In this example, Output_3 is
+In (*Figure 2*), the PP attribute is used. In this example, Output_3 is
 processed periodically. Record processing first fetching the DOL field.
 As the DOL field has the PP attribute set, before the VAL field of
 Calc_3 is returned, the record is processed. The first thing done by the
