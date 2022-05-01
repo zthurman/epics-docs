@@ -371,7 +371,7 @@ alarms, posts monitors, and then returns. The calc record then fetches
 the VAL field from Input_3, places it in the A field, computes the
 calculation, checks alarms, posts monitors, the returns. The ao record,
 Output_3, then fetches the VAL field from the CALC record, applies rate
-of change and limits, write the new value, checks alarms, posts monitors
+of change and limits, writes the new value, checks alarms, posts monitors
 and completes.
 
 |image1|
