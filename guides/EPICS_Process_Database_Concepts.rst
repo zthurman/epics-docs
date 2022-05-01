@@ -368,7 +368,7 @@ Calc_3 is returned, the record is processed. The first thing the
 ai record Input_3 does is read the input. It then converts the RVAL
 field to engineering units and places this in the VAL field, checks
 alarms, posts monitors, and then returns. The calc record then fetches
-the VAL field field from Input_3, places it in the A field, computes the
+the VAL field from Input_3, places it in the A field, computes the
 calculation, checks alarms, posts monitors, the returns. The ao record,
 Output_3, then fetches the VAL field from the CALC record, applies rate
 of change and limits, write the new value, checks alarms, posts monitors
