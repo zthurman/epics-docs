@@ -290,7 +290,7 @@ button is pressed, a channel access put is sent to the record. When the
 VAL field is written, the Passive record is processed and the specified
 device support is called to write the newly converted RVAL to the device
 specified in the OUT field through the device support specified by DTYP.
-Fields determined to change the way a record behaves, typical cause the
+Fields determined to change the way a record behaves, typically cause the
 record to process. Another field that would cause the binary output to
 process would be the ZSV; which is the alarm severity if the binary
 output record is in state Zero (0). If the record was in state 0 and the
