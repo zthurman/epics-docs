@@ -378,7 +378,7 @@ and completes.
 
 **Figure 2**
 
-In *Figure 3*)
+In (*Figure 3*)
 the PP/NPP attribute is used to calculate a rate of change. At 1 Hz, the
 calculation record is processed. It fetches the inputs for the calc
 record in order. As INPA has an attribute of NPP, the VAL field is taken
