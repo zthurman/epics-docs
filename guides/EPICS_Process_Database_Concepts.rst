@@ -606,7 +606,7 @@ expeccted to conform to NTScalar, NTScalarArray, or NTEnum to extract
 value and meta-data.
 
 If the sub-field is an PVScalar or PVScalarArray, then a value will be
-taken from it, but not meta-data will be available.
+taken from it, but no meta-data will be available.
 
 local: Require local PV
 ^^^^^^^^^^^^^^^^^^^^^^^
