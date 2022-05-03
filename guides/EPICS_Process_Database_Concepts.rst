@@ -483,7 +483,7 @@ is set to LINK_ALARM, except if the attribute is MSS when the alarm
 status will be copied along with the severity.
 
 The method of determining if the alarm status and severity should be
-changed is called \``maximize severity". In addition to its actual
+changed is called "maximize severity". In addition to its actual
 status and severity, each record also has a new status and severity. The
 new status and severity are initially 0, which means NO_ALARM. Every
 time a software component wants to modify the status and severity, it
