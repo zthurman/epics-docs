@@ -444,7 +444,7 @@ posted, no matter what the record's SCAN field specifies. If the input
 link specifies CPP, it causes the record to be processed if and only if
 the record with the CPP link has a SCAN field set to Passive. In other
 words, CP and CPP cause the record containing the link to be processed
-with the process variable that they reference changes.
+when the process variable that they reference changes.
 
 Channel Access Output Links
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
