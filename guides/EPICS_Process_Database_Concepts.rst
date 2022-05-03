@@ -683,7 +683,7 @@ This option allows the order of processing to be specified when
 multiple records target the same PV and request processing
 on subscription updates.
 
-Record are processed in increasing order. monorder=-1 is processed
+Records are processed in increasing order. monorder=-1 is processed
 before monorder=0. Both are processed before monorder=1.
 
 defer: Defer put
