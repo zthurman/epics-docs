@@ -898,7 +898,7 @@ no value is returned when a forward processing link is used; therefore,
 a forward processing link need only specify a record name.
 
 Basic typecast conversions are made automatically when a value is
-retrieved from another record. Integers are converted to floating point
+retrieved from another record: integers are converted to floating point
 numbers and floating point numbers are converted to integers. For
 example, a calculation record which uses the value field of a binary
 input will get a floating point 1 or 0 to use in the calculation,
