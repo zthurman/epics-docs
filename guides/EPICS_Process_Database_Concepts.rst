@@ -831,7 +831,8 @@ specification. The '#' signifies a hardware address. The format is:
 
 #B\ *a* C\ *b* N\ *c* A\ *d* F\ *e* @\ *parm*
   For waveform digitizers
-    - B precedes the branch number *a* C precedes the crate number *b*
+    - B precedes the branch number *a* 
+    - C precedes the crate number *b*
     - N precedes the station number *c*
     - A precedes the subaddress *d* (optional)
     - F precedes the function *e* (optional)
