@@ -851,7 +851,6 @@ each card.
 
 #L\ *a* A\ *b* @\ *parm*
   For GPIB I/O
-
     - L precedes the link number *a*
     - A precedes the GPIB address *b*
     - @ precedes optional string *parm*
