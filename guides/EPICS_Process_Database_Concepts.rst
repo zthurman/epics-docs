@@ -794,7 +794,7 @@ The card number in the VME addresses refers to the logical card number.
 Card numbers are assigned by address convention; their position in the
 backplane is of no consequence. The addresses are assigned by the
 technician who populates the backplane, with the logical numbers
-welldocumented. The logical card numbers start with 0 as do the signal
+well documented. The logical card numbers start with 0 as do the signal
 numbers. *parm* refers to an arbitrary string of up to 31 characters and
 is device specific.
 
