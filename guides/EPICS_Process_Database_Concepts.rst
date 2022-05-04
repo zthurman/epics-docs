@@ -798,10 +798,10 @@ well documented. The logical card numbers start with 0 as do the signal
 numbers. *parm* refers to an arbitrary string of up to 31 characters and
 is device specific.
 
-Allen-Bradley Bus
-^^^^^^^^^^^^^^^^^
+Allen-Bradley PLC-5 Bus
+^^^^^^^^^^^^^^^^^^^^^^^
 
-The Allen-Bradley address specification is a bit more complicated as it
+The Allen-Bradley PLC-5 address specification is a bit more complicated as it
 has several more fields. The '#' designates a hardware address. The
 format is:
 
@@ -813,10 +813,10 @@ format is:
     - S precedes the signal number *d*
     - @ precedes optional string *parm*
 
-The card number for Allen-Bradley I/O refers to the physical slot
+The card number for PLC-5 I/O refers to the physical slot
 number, where 0 is the slot directly to the right of the adapter card.
-The AllenBradley I/O has 12 slots available for I/O cards numbered 0
-through 11. Allen-Bradley I/O may use double slot addresses which means
+The PLC-5 I/O has 12 slots available for I/O cards numbered 0
+through 11. PLC-5 I/O may use double slot addresses which means
 that slots 0,2,4,6,8, and 10 are used for input modules and slots
 1,3,5,7,9 and 11 are used for output modules. It's required to use the
 double slot addressing mode when the 1771IL card is used as it only
