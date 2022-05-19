@@ -1278,7 +1278,7 @@ numbers to see the result:
   -437.5 + (2866 / 4095) * (437.5 - (-437.5)) = 175 PSI
 
 We had to adjust the engineering units full scale to adjust for the
-difference between the transducer with the amplifier affects and the
+difference between the transducer with the amplifier effects and the
 range of the I/O card. We also adjusted the low scale to compensate for
 the difference between the unipolar transmitter/amplifier and the
 bipolar analog input card.
