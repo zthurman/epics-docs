@@ -1146,8 +1146,8 @@ In this example the transducer is producing 0 Volts at 0 PSI and 5 Volts
 at 175 PSI. The engineering units full scale and low scale are
 determined as follows:
 
-eng. units full scale = 35 × 10
-eng. units low scale = 35 × 0
+| eng. units full scale = 35 × 10
+| eng. units low scale = 35 × 0
 
 The field entries in an analog record to convert this pressure will be
 as follows:
@@ -1194,8 +1194,8 @@ Volts at 175 PSI. The input module has a different range of voltages and
 the engineering units full scale and low scale are determined as
 follows:
 
-eng. units full scale = 17.5 × 10 
-eng. units low scale = 17.5 × (-10)
+| eng. units full scale = 17.5 × 10 
+| eng. units low scale = 17.5 × (-10)
 
 The database entries to convert this pressure will be as follows:
 
