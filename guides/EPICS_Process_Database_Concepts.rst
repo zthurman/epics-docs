@@ -1460,7 +1460,7 @@ severity of INVALID is set. An INVALID alarm can point to a simple
 configuration problem or a serious operational problem.
 
 For limit alarms and state alarms, the severity can be configured by the
-user to be MAJOR or MINOR for the a specified state. For instance, an
+user to be MAJOR or MINOR for the specified limit or state. For instance, an
 analog record can be configured to trigger a MAJOR alarm when its value
 exceeds 175.0. In addition to the MAJOR and MINOR severity, the user can
 choose the NO_ALARM severity, in which case no alarm is generated for
