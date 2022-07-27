@@ -1391,7 +1391,7 @@ specified.
 
 2) Create a file consisting of a table of an arbitrary number of values in
 engineering units and use the utility called **makeBpt** to convert the
-table into a breakpoint table. As an example, the contents data file to
+table into a breakpoint table. As an example, the contents of the data file to
 create the typeJdegC breakpoint table look like this:
 
 .. code::
